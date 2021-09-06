@@ -29,6 +29,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.8'
+# A ruby gem for bulma Modern CSS framework based on Flexbox
+gem 'bulma', '~> 0.1.0'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

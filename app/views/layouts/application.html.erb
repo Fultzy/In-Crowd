@@ -11,6 +11,93 @@
   </head>
 
   <body>
-    <%= yield %>
+
+    <% if flash[:notice] %>
+      <div class="notification is-primary global-notification">
+        <p class="notice is-centered"><%= notice %></p>
+      </div>
+    <% end %>
+    <% if flash[:alert] %>
+      <div class="notification is-danger global-notification">
+        <p class="alert is-centered"><%= alert %></p>
+      </div>
+    <% end %>
+
+    <nav class="navbar " role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-logo">
+          <%= link_to root_path do %>
+              <%= image_tag "nav-logo-trans.png", class: "image" %>
+          <% end %>
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">
+                Jobs
+              </a>
+              <a class="navbar-item">
+                Contact
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Report an issue
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+
+              <% if user_signed_in? %>
+                <%= link_to 'Sign out', destroy_user_session_path, :method => :delete, class: "button is-primary" %>
+                <%= link_to "users#show" do %>
+                  
+                <% end %>
+
+              <% else %>
+                <%= link_to "Sign Up", new_user_registration_url, class: "button is-primary" %>
+                <%= link_to "Log In", sign_in_path, class: 'button' %>
+
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+
+        <%= yield %>
+
+    </div>
+
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <a href="https://linkedin.com/in/fultzy">LinkedIn</a><br>
+        <a href="https://github.com/Fultzy">GitHub</a>
+      </div>
+    </footer>
   </body>
 </html>
