@@ -15,3 +15,36 @@
  */
 
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+#dashboard{
+    display: inline-flex;
+}
+profile-picture{
+    border-radius: 15px;
+    height:40px;
+    width:auto
+}
+#leftbox {
+    float:left;
+    width:25%;
+    height:auto;
+}
+#middlebox{
+    float:left;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#rightbox{
+    float:right;
+    width:25%;
+    height:auto;
+}

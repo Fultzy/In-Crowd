@@ -1,10 +1,11 @@
 class UsersController < ApplicationController
+  before_action :authenticate_user!
+  
   def index
     @user = User.all
   end
 
   def show
-    @user = User.find(params[:id])
   end
 
   def new
@@ -44,6 +45,6 @@ class UsersController < ApplicationController
 
     private
     def user_params
-      params.require(:user).permit(:username, :email, :password)
+      params.require(:user).permit(:id, :username, :email, :image)
     end
 end

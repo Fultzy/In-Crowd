@@ -1,0 +1,37 @@
+<div class="box" id="dashboard">
+
+  <div class="box" id="leftbox">
+    <div class="container">
+      <div>
+        <div>
+          <!--Temp image tag, needs connecting to db -->
+          <%= image_tag 'matz.jpg', class: 'profile-picture'  %>
+          <div class="username">
+            <h3>Matz@ruby</h3>
+
+          </div>
+          <hr class="navbar-divider">
+        </div>
+        <div>
+          <a><%= link_to 'Edit Account', edit_user_registration_path, class:"button" %></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="box" id="middlebox">
+    <div class="container">
+      <div>
+        <%= render "feed" %>
+      </div>
+    </div>
+  </div>
+
+  <div class="box" id="rightbox">
+    <div class="container">
+      <div>
+        <%= render "updates" %>
+      </div>
+    </div>
+  </div>
+</div>
