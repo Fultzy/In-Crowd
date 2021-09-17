@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 500 500" version="1.1">
+  <g id="layer1" stroke="#000" stroke-width="4.2192" transform="translate(0 -552.36)" fill="none">
+    <path id="path6477" d="m146.52 928.81s28.702-30.137 35.877-28.702c7.1755 1.4351-10.046-64.579-10.046-81.8s-22.961-48.793-31.572-68.884c-8.6106-20.091 8.6105-83.235 4.3053-93.281-4.3053-10.046 4.3053-14.351 11.481-2.8702 7.1754 11.481 11.481 71.755 11.481 71.755l30.137 55.969"/>
+    <path id="path6479" d="m176.65 739.38s5.7404-54.533 8.6105-83.235c2.8702-28.702 1.4351-45.923 1.4351-45.923s0-11.481 10.046-7.1754c10.046 4.3053 21.526 41.618 18.656 60.274-2.8702 18.656-4.3053 41.618-2.8702 57.404s7.1755 44.488 7.1755 44.488"/>
+    <path id="path6481" d="m216.84 659.01s38.747-57.404 38.747-70.319c0-12.916 11.481-12.916 15.786-5.7404 4.3053 7.1755 1.4351 22.961-0.00002 38.747s-18.656 35.877-18.656 45.923 1.4351 31.572-8.6105 37.312l-10.046 5.7404"/>
+    <path id="path6483" d="m244.1 703.5s11.481 24.397 7.1755 37.312l-4.3053 12.916"/>
+    <path id="path6485" d="m254.15 690.59s12.916-10.046 22.961-14.351c10.046-4.3053 50.228 7.1755 58.839 2.8702 8.6105-4.3053 24.397 2.8702 17.221 10.046-7.1755 7.1755-25.832 22.961-34.442 22.961-8.6106 0-31.572-10.046-38.747-8.6105-7.1754 1.4351-10.046 8.6105-10.046 8.6105s10.046 25.832 10.046 31.572v5.7404"/>
+    <path id="path6487" d="m333.08 802.52s1.4351-20.091 2.8702-27.267c1.4351-7.1754-7.1755-14.351-8.6106-27.267s-2.8702-35.877 14.351-43.053c17.221-7.1754 28.702-12.916 25.832-1.4351-2.8702 11.481-8.6105 30.137-4.3053 45.923 4.3053 15.786 4.3053 96.151 4.3053 96.151s-10.046 51.663-30.137 64.579-27.267 27.267-38.747 27.267c-11.481 0-24.397-4.3053-24.397-4.3053"/>
+    <path id="path6489" d="m297.2 937.42s-40.183 35.877-43.053 47.358l-2.8702 11.481"/>
+    <path id="path6491" d="m277.11 746.55s45.923 10.046 51.663 24.397c5.7404 14.351 7.1755 14.351 7.1755 14.351"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>buddha hand</dc:title>
+        <dc:date>2011-05-15T17:13:01</dc:date>
+        <dc:description>ak student, buddha, buddhist, clip art, clipart, dharma weel, hand, india, religion, thai, thailand, vesak, weel, </dc:description>
+        <dc:source>http://openclipart.org/detail/138889/buddha-hand-by-chikiyo</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>chikiyo</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>ak student</rdf:li>
+            <rdf:li>buddha</rdf:li>
+            <rdf:li>buddhist</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>dharma weel</rdf:li>
+            <rdf:li>hand</rdf:li>
+            <rdf:li>india</rdf:li>
+            <rdf:li>religion</rdf:li>
+            <rdf:li>thai</rdf:li>
+            <rdf:li>thailand</rdf:li>
+            <rdf:li>vesak</rdf:li>
+            <rdf:li>weel</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,1 +1,24 @@
-<%= image_tag(@user.image)%>
+<div class="container box" id="user-profile">
+  <div class="container box">
+    <div>
+      <div>
+        <!--Temp image tag, needs connecting to db -->
+        <a class="image is-128x128">
+          <!-- Link to Post.User Profile -->
+          <%= image_tag 'matz.jpg' %>
+        </a>
+        <a class="username">
+          <strong>Matz</strong> <small>@Ruby</small>
+        </a>
+        <hr class="navbar-divider">
+      </div>
+      <div id="dashboard-user-card-links">
+        <a><%= link_to 'My Profile', users_path, class:"button is-info is-outlined" %></a>
+        <a><%= link_to 'My Crowds', users_path, class:"button is-info is-outlined" %></a>
+
+        <hr class="navbar-divider">
+
+        <a><%= link_to 'Edit Account', edit_user_registration_path, class:"button is-info is-outlined" %></a>
+      </div>
+    </div>
+  </div>

@@ -24,27 +24,30 @@ body{
 footer{
     margin-top: auto;
 }
+
+#main-container{
+
+}
+
 #dashboard{
-    display: inline-flex;
+  display: inline-flex;
+
 }
-profile-picture{
-    border-radius: 15px;
-    height:40px;
-    width:auto
+#dashboard-user-card {
+  max-width:200px;
+
 }
-#leftbox {
-    float:left;
-    width:25%;
-    height:auto;
+#dashboard-user-card-links{
+
 }
-#middlebox{
+#dashboard-feed{
+    align-items: center;
     float:left;
     height: auto;
+    width: 100vh;
     margin-left: 10px;
     margin-right: 10px;
 }
-#rightbox{
-    float:right;
-    width:25%;
-    height:auto;
+#dashboard-updates{
+
 }
