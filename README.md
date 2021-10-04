@@ -1,24 +1,16 @@
-# README
+# In-Crowd
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In crowd is a web application intended to be used by people who need to keep information available to several different groups of people without others having access to it.
 
-Things you may want to cover:
+By creating a Crowd you can post and manage information others can see and interact with. you can control who can access the information. you can control who else can moderate the crowd similar to how redit and facebook groups but works with the added benefit of keeping the posts related to your crowd completely private by default.
 
 * Ruby version
+  - 3.0.1
 
-* System dependencies
+* Rails Version
+  - 6.1.4
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Dependencies
+  - webacker - v5.0
+  - devise - v4.8
+  - bulma - v1.0
